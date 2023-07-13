@@ -9,7 +9,7 @@ const Todo = () => {
 
 
     useEffect(() => {
-      fetch('https://jsonplaceholder.typicode.com/todos/1')
+      fetch('https://jsonplaceholder.typicode.com/todos/5')
       .then((res)=> res.json())
       .then((data) =>{
         if (isMounted.current) {
@@ -17,17 +17,18 @@ const Todo = () => {
           setTimeout(() => {
             setTodo(data)
             setLoading(false)
+            console.log(data)
           }, 3000)
         }
        
       })
 
-      // return () =>{
-      //   isMounted.current = false
+      return () =>{
+        isMounted.current = false
 
-      // }
+      }
 
-    }, [])
+    }, [isMounted])
     
   return loading ? <h2>Loading ...</h2> : <h3>{todo.title}</h3>
 

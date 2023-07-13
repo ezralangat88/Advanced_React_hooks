@@ -5,7 +5,7 @@ const UseRef3 = () => {
   const [showToDo, setshowToDo] = useState(true)
   return (
     <div>
-        <h2>Example 3</h2>
+        {/* <h2>Example 3</h2> */}
         {
           showToDo && (
            <Todo/>

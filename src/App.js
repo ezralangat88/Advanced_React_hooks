@@ -7,7 +7,7 @@ function App() {
   return (
    <>
 
-   <h2>REACT HOOKS</h2>
+   {/* <h2>REACT HOOKS</h2> */}
    {/* <UseRef/>
    <UseRef2/> */}
    <UseRef3/>
