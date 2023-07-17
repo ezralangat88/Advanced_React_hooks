@@ -7,7 +7,8 @@ const UseMemo = () => {
 
     const renders = useRef(1)
 
-    const sqrt = useMemo(()=> getSqrt(number), [number])
+    const sqrt = useMemo(()=> getSqrt(number), 
+    [number])
 
     function getSqrt(n) {
         for (let i = 0; i <= 1000; i++) {

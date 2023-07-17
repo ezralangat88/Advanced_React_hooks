@@ -3,6 +3,7 @@ import UseRef from './components/UseRef';
 import UseRef2 from './components/UseRef2';
 import UseRef3 from './components/UseRef3';
 import UseMemo from './components/useMemo/UseMemo';
+import UseCallback from './components/UseCallback/UseCallback';
 
 function App() {
   return (
@@ -11,8 +12,9 @@ function App() {
    {/* <h2>REACT HOOKS</h2> */}
    {/* <UseRef/>  */}
    {/* <UseRef2/>  */}
-   <UseRef3/>
-   <UseMemo/>
+   {/* <UseRef3/> */}
+   {/* <UseMemo/> */}
+   <UseCallback/>
    
    </>
   );
