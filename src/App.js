@@ -4,6 +4,7 @@ import UseRef2 from './components/UseRef2';
 import UseRef3 from './components/UseRef3';
 import UseMemo from './components/useMemo/UseMemo';
 import UseCallback from './components/UseCallback/UseCallback';
+import CustomHooks from './components/useFetch/CustomHooks';
 
 function App() {
   return (
@@ -14,7 +15,9 @@ function App() {
    {/* <UseRef2/>  */}
    {/* <UseRef3/> */}
    {/* <UseMemo/> */}
-   <UseCallback/>
+   {/* <UseCallback/> */}
+   <CustomHooks/>
+
    
    </>
   );

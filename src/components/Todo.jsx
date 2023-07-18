@@ -32,7 +32,7 @@ const Todo = () => {
     
   return loading ? <h2>Loading ...</h2> : 
 
-  <table
+<table
   className="table_content"
   id="table-to-xls">
   <thead>
